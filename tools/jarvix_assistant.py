@@ -50,6 +50,7 @@ def do_one_task(instruction_prompt, input_prompt, task_params, max_consecutive_a
 if __name__ == '__main__':
     system_prompt = """Given a python function, read it overally and fully understand it, then write descriptions for the function and all input parameters, response in bullet items."""
     user_input_prompt = """The python function: {function_code}"""
+    # TODO: 运行有bug
     do_one_task(instruction_prompt=system_prompt, 
                 input_prompt=user_input_prompt,
                 task_params={"function_code": """
