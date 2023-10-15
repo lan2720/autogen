@@ -1,0 +1,6 @@
+tiktoken
+pyautogen
+arxiv
+chromadb
+pypdf
+langchain
