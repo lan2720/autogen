@@ -1,0 +1,48 @@
+[
+    {
+        "name": "get_file_from_url",
+        "description": "Download a file from a URL.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "url": {
+                    "type": "string",
+                    "description": "url"
+                },
+                "save_path": {
+                    "type": "string",
+                    "description": "save_path"
+                }
+            },
+            "required": ["url"]
+        }
+    },
+    {
+        "name": "extract_text_from_pdf",
+        "description": "To extract text from a PDF file. Opens the file through a filepath, reads it using a PDF reader, then extract text.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "file": {
+                    "type": "string",
+                    "description": "A string representing the path to the PDF file from which the text is to be extracted."
+                },
+            "required": ["file"]
+            }
+        }
+    },
+    {
+        "name": "tc_to_sc",
+        "description": "Convert Traditional Chinese text to Simplified Chinese text.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "text": {
+                    "type": "string",
+                    "description": "Only input parameter for the function. It is a string in Traditional Chinese that you want to convert to Simplified Chinese."
+                }
+            },
+            "required": ["text"]
+        }
+    }
+]

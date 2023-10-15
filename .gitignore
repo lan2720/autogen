@@ -1,6 +1,7 @@
 # me added
 OAI_CONFIG_LIST
 jarvix_proxy/
+__pycache__
 
 .docusaurus/
 node_modules/

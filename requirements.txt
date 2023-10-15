@@ -4,3 +4,4 @@ arxiv
 chromadb
 pypdf
 langchain
+openai-functools
